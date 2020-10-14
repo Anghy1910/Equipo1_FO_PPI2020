@@ -1,0 +1,17 @@
+.footer{
+    background-color: #bbdefb;
+    height: 80px;
+    text-align: center;
+} 
+.icons-social__item{
+    list-style: none;
+    display: inline;
+    font-size: 25px;
+}
+.container-footer{
+    font-size: 13px;
+    color: white;
+}
+.Derechos{
+    width: 10px;
+}
