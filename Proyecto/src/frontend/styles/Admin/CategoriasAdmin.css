@@ -1,0 +1,16 @@
+#Categorias{
+    background-color: #81d4fa;
+}
+.alertadmin{
+  background-color: #81d4fa;
+  text-align: center;
+  color: white;
+  font-family: 'Bebas Neue',cursive;
+  font-size: 30px;
+}
+#Admin_Texto{
+  font-size: 20px;
+  font-weight: 800;
+  color: black;
+}
+
