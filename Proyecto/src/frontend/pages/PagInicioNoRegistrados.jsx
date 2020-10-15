@@ -2,7 +2,7 @@ import React from 'react';
 import Cards from '../components/InicioNoRegistrados/cardsNoregistrados.jsx';
 import NavBarfuera from '../components/Generales/navbarNoRegistrados.jsx';
 import Informacion from '../components/InicioNoRegistrados/Informacion.jsx';
-import LastButton from '../components/Generales/Button.jsx';
+import LastButton from '../components/InicioNoRegistrados/Button';
 import Espacio from '../components/Generales/Espacio.jsx';
 import Footer from '../components/Generales/Footer.jsx'
 
@@ -14,8 +14,6 @@ class Bonhomiauno extends React.Component{
                 <Cards/>
                 <Espacio/>
                 <Informacion/>
-                
-                <Espacio />
                 <LastButton button='Regístrate'/>
                 <Footer/>
         </React.Fragment>
