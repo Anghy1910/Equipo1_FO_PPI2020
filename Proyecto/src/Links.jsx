@@ -14,6 +14,10 @@ import AdminPerfil from './frontend/pages/PagPerfilAdmin'
 import BonhomiaAdmin from './frontend/pages/PagAdmin'
 import BonhomiaAdminactividades from './frontend/pages/PagAdminActividades'
 import Musica from './frontend/pages/PagMusica'
+import Usuario from './frontend/pages/InicioSesion';
+import Perfil from './frontend/pages/PerfilUsuario';
+import Registros from './frontend/pages/Registro';
+import Emociones from './frontend/pages/VentanaEmociones';
 
 function Links (){
     return(
@@ -33,6 +37,10 @@ function Links (){
                 <Route exact path= '/bonhomia/perfiladmin' component={AdminPerfil}/>
                 <Route exact path= '/bonhomia/musica' component={Musica}/>
                 <Route exact path= '/bonhomia' component={Bonhomiauno}/>
+                <Route exact path='/login' component={Usuario}/>
+                <Route exact path='/perfiluser' component={Perfil}/>
+                <Route exact path='/registro' component={Registros}/>
+                <Route exact path='/estadoanimo' component={Emociones}/>
             </Switch>
         </BrowserRouter>
     )
