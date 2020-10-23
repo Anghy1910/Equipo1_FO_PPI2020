@@ -16,12 +16,12 @@ render() {
                 </Link>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <Link to="/bonhomia/actividades" className="nav-item nav-link">Actividades</Link>
-                    <Link to="" className="nav-item nav-link">Música</Link>
+                    <Link to="/bonhomia/musica" className="nav-item nav-link">Música</Link>
                     <Link to="/bonhomia/temporizador" className="nav-item nav-link">Temporizador</Link>
             </div>      
             <div className="navbar-brand" id="navbarNav">
-                <Link to="" className="navbar-brand"><img className="navbar-brand_img" width="60px" height="60px" src={Logout} alt="Perfil" /></Link>
-                <Link to="" className="navbar-brand"><img className="navbar-brand_img" width="65px" height="65px" src={PerfilUsuario} alt="Perfil" /></Link>
+                <Link to="/bonhomia" className="navbar-brand"><img className="navbar-brand_img" width="60px" height="60px" src={Logout} alt="Perfil" /></Link>
+                <Link to="/bonhomia/perfil/cambioicono" className="navbar-brand"><img className="navbar-brand_img" width="65px" height="65px" src={PerfilUsuario} alt="Perfil" /></Link>
             </div>
         </nav>
         </React.Fragment>

@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import "../../styles/Generales/tipografias.css";
 import '../../styles/Generales/navbarMenu.css';
 import Logo from "../../images/Logo.png";
@@ -13,8 +14,10 @@ render() {
                     </a>Bonhomía
             </h1>
             <div className="navbar-brand" id="navbarNav">
-                    <a className="nav-item nav-link aInicio"  href="#home">Registrarse  </a>
-                    <a className="nav-item nav-link aInicio"  href="#producto">  Iniciar Sesión</a>
+                <Link to="/bonhomia/inicio" className="nav-item nav-link aInicio">Registrate</Link>
+                <Link to="/bonhomia/inicio" className="nav-item nav-link aInicio">Inicio de Sesión</Link>
+               
+                   
             </div>      
         </nav>
         );
