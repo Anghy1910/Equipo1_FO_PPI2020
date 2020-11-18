@@ -1,0 +1,24 @@
+.navbar{
+    height: 10%;
+    background-color: #bde1ff;
+    border: 2px solid #90caf9;
+    justify-content: space-between;
+}
+.navbar a{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+.navbar a:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: #bbdefb;
+}
+.aInicio{
+    display: inline;
+    font-size: 15px;
+}
+.TituloLogo{
+    font-family: "Bebas Neue", cursive;
+    text-shadow: 0 0 10px #69c6d6;
+}

@@ -1,0 +1,16 @@
+.principal{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+.secundario{
+    margin:  0 auto;
+}
+.tituloventanae{
+    text-align: center;
+    font-size: 45px;
+}
+.EmocionBoton{
+    background-color: transparent;
+    border-color: transparent;
+}

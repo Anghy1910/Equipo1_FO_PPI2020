@@ -1,0 +1,78 @@
+#Cancion{
+    background-color: #D7EEFC;
+    border: 20px;
+    border-color: black;
+}
+#Cancion1{
+    background-color: #81d4fa;
+    margin-top: none;
+}
+.links{
+    margin-left: 10px;
+}
+#Autor__texto{
+    text-indent: 70px;
+}
+#Duracion__texto{
+    text-indent: 30px;
+}
+#Autor__texto2{
+    text-indent: 30px;
+}
+#Duracion__texto2{
+    text-indent: 30px;
+}
+#Autor__texto3{
+    text-indent: 75px;
+}
+#Duracion__texto3{
+    text-indent: 30px;
+}
+#Autor__texto4{
+    text-indent: 30px;
+}
+#Duracion__texto4{
+    text-indent: 60px;
+}
+#Autor__texto5{
+    text-indent: 30px;
+}
+#Duracion__texto5{
+    text-indent: 20px;
+}
+#Autor__texto6{
+    text-indent: 90px;
+}
+#Duracion__texto6{
+    text-indent: 90px;
+}
+#Autor__texto7{
+    text-indent: 30px;
+}
+#Duracion__texto7{
+    text-indent: 90px;
+}
+#Cancion__img{
+    width:50px;
+    height:50px;
+    margin-left: 80px;
+}
+.Cancion__left{
+    width:50px;
+    height:50px;
+    text-indent: 60px;
+}
+.Cancion__pause{
+    width:50px;
+    height:50px;
+    text-indent: 60px;
+}
+.Cancion__right{
+    width:50px;
+    height:50px;
+    text-indent: 50px;
+    
+}
+.Cancionesbotones{
+    text-align: center;
+}

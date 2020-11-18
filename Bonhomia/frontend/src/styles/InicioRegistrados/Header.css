@@ -1,0 +1,77 @@
+.Parrafo{
+    font-size: 16px;
+} 
+.TituloPrincipal {
+    font-family: "Bebas Neue", cursive;
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+    text-shadow: 0 0 10px #8bd9e6;
+}
+.TituloSecundario {
+    margin-left: 30px;
+    font-family: "Bebas Neue", cursive;
+    font-size: 25px;
+    text-shadow: 0 0 10px #8fcbfc;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    left: 0px;
+}
+
+.container .card {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: white;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px #00bcd4;
+    transition: 0.3s ease-in-out;
+}
+
+.container .card:hover {
+    height: 365px;
+}
+
+.container .card .imgBx {
+    position: relative;
+    max-width: 300px;
+    height: 200x;
+    top: -60px;
+    left: 0px;
+    z-index: 1;
+    box-shadow: 0 5px 20px #00bcd4;
+}
+
+.container .card .imgBx img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.container .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}

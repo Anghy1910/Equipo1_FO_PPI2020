@@ -1,0 +1,54 @@
+.cardprogresoact{
+    margin: 8px;
+    margin-bottom: 30px; 
+    box-shadow:  0px 0px 8px 5px #98D8F3;
+    border-radius: 10px;
+    border: #98D8F3;
+    align-items: center;
+}
+.img_conoceremociones{
+    margin-top: 6px;
+    border-radius: 10px;
+    width: 100%;
+}
+.imgActEscritura{
+    height: 415px;
+}
+.Titulo{
+    font-family: "Bebas Neue", cursive;
+    font-size: 25px;
+    text-shadow: 0 0 10px #8fcbfc;
+    text-align: left;
+}
+.cardperfilact{
+    width: 210px;
+    margin-bottom: 30px;
+}
+.imgperfil1{
+    width: 205px;
+}
+.imgperfil2{
+    width: 193px;
+}
+.imgperfil3{
+    width: 190px;
+}
+.imgperfil4{
+    width: 174px;
+}
+.imgperfil5{
+    width: 176px;
+}
+.progress{
+    margin-left: 10px;
+}
+.progress-bar{
+    width: 50%;
+}
+.imgemociones1{
+    width: 170px;
+    margin-left: 8px;
+}
+.imgemociones2{
+    margin-bottom: 30px;
+}

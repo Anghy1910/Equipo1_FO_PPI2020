@@ -1,0 +1,18 @@
+.Administrador__card{
+    width: 100%;
+}
+#Imagencard_Admin{
+    text-align: left;
+    height: 500px;
+    width: 500px;
+    border: none;
+}
+#Imagencard_Admin2{
+    height: 500px;
+    width: 500px;
+    border: none;
+    text-align: right;
+}
+.card{
+    border: none;
+}

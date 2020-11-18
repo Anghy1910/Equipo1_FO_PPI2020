@@ -1,0 +1,14 @@
+.tituloinfo{
+    color:#03A9F4;
+}    
+.parrafoinfo{
+    color: black;
+    font-weight: 50;    
+}
+.fotoperfil{
+    width: 200px;
+}
+.cardfotoperfil{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}

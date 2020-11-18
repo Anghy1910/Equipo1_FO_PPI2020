@@ -1,0 +1,21 @@
+.FormularioContainer{
+    padding-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.Icono{
+    width: 48px;
+}
+.linkFacebook{
+    font-size: 20px;
+}
+.linkGmail{
+    font-size: 20px;
+} 
+.ingresos{
+    margin-bottom: 20px;
+}
+
+
+

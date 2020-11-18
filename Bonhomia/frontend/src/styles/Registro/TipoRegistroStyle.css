@@ -1,0 +1,40 @@
+.form{
+  width: 450px;
+}
+.Registrobody{
+  margin-top: 30px;
+}
+.buttonvarios{
+    background-color:  #8bd9e6;
+    font-family: 'Bebas Neue', cursive ;
+    font-size: 30px;
+    color: black;
+    border-radius: 10px;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-top: 20px;
+}
+.buttonvarios:hover{
+  cursor: pointer;
+  color: black;
+  border: 2px solid #8bd9e6;
+  background-color: white;
+}
+.linkFacebook{
+  font-size: 20px;
+}
+.linkGmail{
+  font-size: 20px;
+} 
+.ingresos{
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+.autorizacion{
+  margin-left: 250px;
+}
+.autorizacion1{
+  margin-left: 30px;
+}

@@ -1,0 +1,13 @@
+.Banner{
+    background-color: #D7EEFC;
+    margin-top: 20px;
+}
+#Banner__texto{
+    text-align: center;
+    font-family: 'Bebas Neue',cursive ;
+}
+#Banner__img{
+    text-align: center;
+    height: 300px;
+
+}
