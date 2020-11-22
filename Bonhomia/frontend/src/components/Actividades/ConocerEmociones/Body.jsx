@@ -17,7 +17,7 @@ class ConocerEmocionesActividades extends React.Component{
 
                 <div className="card-deck">
                 <CardForm url={ActRelajacion} Class="img_conoceremociones" cardTitle='Relaja tu mente' cardText='Tipo: Relajación'/>
-                <Link to="/bonhomia/actdiario"><CardForm url={ActEscritura} Class="img_conoceremociones imgActEscritura" cardTitle='Escribe sobre tus emociones' cardText='Tipo: Escritura'/></Link>
+                <CardForm url={ActEscritura} Class="img_conoceremociones imgActEscritura" cardTitle='Escribe sobre tus emociones' cardText='Tipo: Escritura'/>
                 <CardForm url={ActTest} Class="img_conoceremociones" cardTitle='Preguntas de emociones' cardText='Tipo: Test'/>
                 </div>
                 

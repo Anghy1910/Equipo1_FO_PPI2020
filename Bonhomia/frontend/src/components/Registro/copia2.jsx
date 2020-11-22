@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {useHistory} from 'react-router-dom';
 import Axios from 'axios';
+import '../../styles/Generales/Button.css';
 import '../../styles/Registro/TipoRegistroStyle.css';
 import '../../styles/Generales/tipografias.css';
 import BotonUsuario from '../InicioSesion/BotonUsuario';
@@ -22,7 +23,7 @@ function TipoRegistro () {
       age: edad, gender: genero, pet: mascota}).then((Response)=>{
         console.log(Response);
         if(Response.data.message === `Auth`){
-            /* history.push("/bonhomia/inicio") */
+            history.push("/bonhomia/encuesta") 
             console.log(Response.data.message);
         }
       }).then((response)=>{
@@ -127,7 +128,9 @@ function TipoRegistro () {
           </label>
       </div>
 
-        <button type="submit" onClick={registro} />
+      <div className='row justify-content-center h-100'>
+        <button className='text-center buttonvarios' type="submit" onClick={registro}>Registrate</button>
+        </div>
 
         <div className='row justify-content-center h-100 ingresos'>
           <div>

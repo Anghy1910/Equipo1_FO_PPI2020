@@ -21,6 +21,9 @@ class Main extends React.Component {
                         <Link to="/bonhomia/temporizador"><CardForm2 Class='card_inicio' Image={Temporizador} Clase__1="card_inicio" CardName='Temporizador' /></Link>
                     </div>
                 </div>
+                <div>
+               <script async type="text/javascript" src="https://collectcdn.com/embed.js"></script><iframe src="https://links.collect.chat/5fb3ec925702ad2e64f05726"  width="100%" height="600" frameBorder="0"></iframe>
+           </div>
             </main>
         )
     }
