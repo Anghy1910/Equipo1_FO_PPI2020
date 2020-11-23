@@ -19,7 +19,10 @@ import Perfil from './pages/PerfilUsuario';
 import Registros from './pages/Registro';
 import Emociones from './pages/VentanaEmociones';
 import Encuesta from './pages/PagEncuesta';
-import ActDiario from './pages/PagActDiario';
+/* import ActNotas from './pages/ActNotas'; */
+import Crearnota from './pages/CrearNota'
+import CrearUser from './components/Actividades/ConocerEmociones/ActDiario/CreateUser'
+import Lista from './components/Actividades/ConocerEmociones/ActDiario/NotesList'
 
 function Links (){
     return(
@@ -44,7 +47,11 @@ function Links (){
                 <Route exact path='/registro' component={Registros}/>
                 <Route exact path='/estadoanimo' component={Emociones}/>
                 <Route exact path='/bonhomia/encuesta'component={Encuesta} />
-                <Route exact path='/bonhomia/actdiario'component={ActDiario} />
+                {/* <Route exact path='/bonhomia/actnotas' exact component={ActNotas} /> */}
+                <Route path="/bonhomia/lista" exact component={Lista} />
+                <Route path="/bonhomia/edit/:id" component={Crearnota} />
+                <Route path="/bonhomia/create" component={Crearnota} />
+                <Route path="/bonhomia/user" component={CrearUser} />
             </Switch>
         </BrowserRouter>
     )

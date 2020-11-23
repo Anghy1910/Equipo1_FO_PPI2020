@@ -1,5 +1,4 @@
 const mysql = require('mysql');
-const { route } = require('../routes/routes');
 const mysqlConnection = mysql.createConnection({
     host: 'localhost',
     user: 'root',

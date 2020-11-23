@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
-const routes = require('./routes/routes');
 const registro = require('./routes/registro.js');
+const notas = require('./routes/Notas')
 
 //AJUSTES
 app.set('port', 4000); 
@@ -14,8 +14,9 @@ app.get('/', (req, res) => {
     res.send('Nuestra primera app Express-MySQL');
 })
 
-app.use('/api', routes)
-app.use('/api/registro', registro)
+app.use('/api/registro', registro);
+app.use('api/notas', notas);
+
 
 //AJUSTES SERVIDOR
 app.listen(app.get('port'), () => {
