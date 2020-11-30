@@ -130,16 +130,12 @@ function TipoRegistro () {
 
       <div className='row justify-content-center h-100'>
         <button className='text-center buttonvarios' type="submit" onClick={registro}>Registrate</button>
+<<<<<<< HEAD:Bonhomia/frontend/src/components/Registro/copia2.jsx
         </div>
+=======
+      </div>
+>>>>>>> Feature_Anghy:Bonhomia/frontend/src/components/Registro/Registro.jsx
 
-        <div className='row justify-content-center h-100 ingresos'>
-          <div>
-              <a className="linkFacebook col- mr-5 " href="#">Facebook</a>
-          </div>
-          <div>
-            <a className="linkGmail col-ml-5 offset-ml-5" href="#">Gmail</a>
-          </div>
-        </div>
       </body>
     )
   }

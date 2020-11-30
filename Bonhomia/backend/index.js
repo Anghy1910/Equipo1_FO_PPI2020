@@ -1,7 +1,9 @@
 const express = require("express");
 const app = express();
 const registro = require('./routes/registro.js');
-const notas = require('./routes/Notas')
+const encuesta = require ('./routes/encuesta.js');
+const perfil = require ('./routes/Perfil'); 
+const notas = require('./routes/Notas.js');
 
 //AJUSTES
 app.set('port', 4000); 
@@ -15,8 +17,9 @@ app.get('/', (req, res) => {
 })
 
 app.use('/api/registro', registro);
-app.use('api/notas', notas);
-
+app.use('/api/encuesta', encuesta);
+app.use('/api/perfil', perfil);
+app.use('/api/notas', notas);
 
 //AJUSTES SERVIDOR
 app.listen(app.get('port'), () => {
