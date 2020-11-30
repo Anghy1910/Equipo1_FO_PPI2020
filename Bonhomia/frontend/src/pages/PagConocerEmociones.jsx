@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Generales/navbarmenu';
-import ConocerEmociones from '../components/Actividades/ConocerEmociones/Body';
+import ConocerEmociones from '../components/Actividades/ConocerEmociones/bosy';
 import Footer from '../components/Generales/Footer'; 
 
 class PagConocerEmociones extends React.Component{

@@ -130,11 +130,7 @@ function TipoRegistro () {
 
       <div className='row justify-content-center h-100'>
         <button className='text-center buttonvarios' type="submit" onClick={registro}>Registrate</button>
-<<<<<<< HEAD:Bonhomia/frontend/src/components/Registro/copia2.jsx
         </div>
-=======
-      </div>
->>>>>>> Feature_Anghy:Bonhomia/frontend/src/components/Registro/Registro.jsx
 
       </body>
     )
