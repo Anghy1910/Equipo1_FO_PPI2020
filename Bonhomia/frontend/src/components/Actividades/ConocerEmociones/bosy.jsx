@@ -25,8 +25,6 @@ class ConocerEmocionesActividades extends React.Component{
                     <p className="card-text Parrafo">Tipo: Escritura</p>
                 </div>
             </div>
-
->>>>>>> Feature_Anghy
                 <CardForm url={ActTest} Class="img_conoceremociones" cardTitle='Preguntas de emociones' cardText='Tipo: Test'/>
                 </div>
                 
