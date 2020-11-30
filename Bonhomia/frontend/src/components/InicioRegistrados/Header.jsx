@@ -13,7 +13,7 @@ class Header extends React.Component {
     render() {
         return (
             <body>
-                <TituloPrincipal TituloPrincipal="Bienvenida Anghy" />
+                <TituloPrincipal TituloPrincipal="Bienvenid@" />
                 <TituloSecundario Class="TituloSecundario" TituloSecundario="Tipos de Inteligencia Emocional"/>
                 <div className="container row col-md">
                     <div className="card">

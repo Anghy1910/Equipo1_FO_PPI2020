@@ -22,7 +22,7 @@ function TipoRegistro () {
       age: edad, gender: genero, pet: mascota}).then((Response)=>{
         console.log(Response);
         if(Response.data.message === `Auth`){
-            /* history.push("/bonhomia/inicio") */
+            history.push("/bonhomia/encuesta") 
             console.log(Response.data.message);
         }
       }).then((response)=>{
@@ -127,16 +127,10 @@ function TipoRegistro () {
           </label>
       </div>
 
-        <button type="submit" onClick={registro} />
+      <div className='row justify-content-center h-100'>
+        <button className='text-center buttonvarios' type="submit" onClick={registro}>Registrate</button>
+      </div>
 
-        <div className='row justify-content-center h-100 ingresos'>
-          <div>
-              <a className="linkFacebook col- mr-5 " href="#">Facebook</a>
-          </div>
-          <div>
-            <a className="linkGmail col-ml-5 offset-ml-5" href="#">Gmail</a>
-          </div>
-        </div>
       </body>
     )
   }

@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Generales/navbarmenu';
-import Lista from '../components/Actividades/ConocerEmociones/ActDiario/NotesList';
-import Crearnota from '../components/Actividades/ConocerEmociones/ActDiario/CreateNote'
+import Crearnota from '../components/Actividades/ConocerEmociones/ActDiario/crearNota'
 import Footer from '../components/Generales/Footer'; 
 
 class PagCrearnota extends React.Component{
@@ -9,7 +8,7 @@ class PagCrearnota extends React.Component{
         return(
             <div className='PagActividades'> 
                 <Navbar src={Navbar} alt='Navbar' />
-                    <Lista/>
+                    
                     <Crearnota/>
                 <Footer src={Footer} alt="Footer"></Footer>
             </div>
