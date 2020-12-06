@@ -10,14 +10,14 @@ router.get('/', (req, res) => {
         if (!err) {
             res.json(rows[0])
         } else {
-            console.log(err)
+            console.log(err);
         }
     })
 })
 
 router.delete('/co', (req, res) => {
     const { id_usuario } = req.params;
-    mysqlConnection.query('DELETE FROM usuario WHERE id_usuario = 48  ', [id_usuario], (err, rows, fields) => {
+    mysqlConnection.query('DELETE FROM usuario WHERE id_usuario = 53  ', [id_usuario], (err, rows, fields) => {
         if (!err) {
             res.json({ status: "Listo" });
         } else {

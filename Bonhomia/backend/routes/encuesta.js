@@ -11,7 +11,7 @@ app.use(cors());
 app.post('/', (req,res)=>{
     const puntaje = req.body.score;
     
-    console.log(puntaje)
+    console.log(puntaje);
 
     mysqlConnection.query('INSERT INTO encuesta (puntaje) VALUES(?)', 
     [puntaje], (err, result)=>{
